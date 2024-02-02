@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="img-tesla">
+           <img src="./img/Tesla1.jpg" width="900px">
+        </div>
+        <div class="mid-Tesla">
+         <div class="left-side">
+            <p>Tesla Проедет</p>
+            <h1 >750км</h1>
+         </div>
+         <div class="right-side">
+            <p>Tesla Проедет</p>
+            <h1 >$89,990</h1>
+         </div>
+      </div>
+      <div class="footer-tesla">
+         <div class="box box1">
+            <div class="left-box">
+               <p>Скорость автомобиля</p>
+               <h1 >60 км/ч</h1>
+            </div>
+            <div class="right-box">
+               <img src="./img/arrow-up-circle.svg" class="speed-up">
+               <br>
+               <img src="./img/arrow-up-circle.svg" class="speed-down" style="transform: rotate(180deg);">
+            </div>
+         </div>
+     
+           <div class="box box1">
+              <div class="left-box">
+                 <p>Температура за окном</p>
+                 <h1>20 &deg;</h1>
+              </div>
+              <div class="right-box">
+                 <img src="./img/arrow-up-circle.svg" class="ACC-up">
+                 <br>
+                 <img src="./img/arrow-up-circle.svg" class="ACC-down" style="transform: rotate(180deg);">
+              </div>
+           </div>
+           <div class="box box1">
+              <div class="left-box">
+                 <p>Диски</p>
+                 <h1 id="html-wheels">19</h1>
+              </div>
+              <div class="right-box">
+                 <img src="./img/arrow-up-circle.svg" class="wheels-up">
+                 <br>
+                 <img src="./img/arrow-up-circle.svg" class="wheels-down" style="transform: rotate(180deg);">
+              </div>
+           </div>
+           <div data-change="acc" class="box">
+              <p>Кондиционер</p>
+              <label class="switch">
+                 <input type="checkbox" class="acc">
+                 <span class="slider round"></span>
+              </label>
+           </div>
+           <div data-change="plaid" class="box">
+              <p>Версия Plaid</p>
+              <label class="switch">
+                 <input type="checkbox" class="plaid">
+                 <span class="slider round"></span>
+              </label>
+           </div>
+           <div data-change="page" class="box click">
+              <p>Вид автомобиля</p>
+                 <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                 </label>
+           </div>
+        </div>
+     </main>
+ <script src="./script.js"></script>
+</body>
+</html>
